@@ -1,0 +1,21 @@
+.loader {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid #0c8f66;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s linear;
+  animation: zoom 0.4s infinite;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1.3);
+  }
+}

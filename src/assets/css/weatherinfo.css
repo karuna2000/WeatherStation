@@ -1,0 +1,22 @@
+.weatherInfo-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.weatherInfo-Inner-Wrapper{
+    width:max(285px,30%);
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.Info-Card{
+  width: 180px;
+  background: #103783;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  padding: 0.6rem 1rem;
+
+}

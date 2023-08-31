@@ -1,0 +1,61 @@
+.weather-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+.place-wrapper {
+  display: flex;
+  align-items: center;
+}
+.Card {
+  width: max(285px, 33%);
+  height: 330px;
+  background: #fff;
+  margin: 2rem auto;
+  border-radius: 9px;
+}
+.Card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.7rem 0;
+  gap: 0.7rem;
+}
+
+.map-icon {
+  font-size: 1.9rem;
+}
+.city,
+.state,
+.country {
+  padding: 0.1rem;
+}
+
+.date-time-wrapper {
+  height: 29%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.temparature-score {
+  font-size: 8rem;
+  font-weight: 900;
+}
+.calender-icon,.time-icon {
+  font-size: 1.2rem;
+  vertical-align: bottom;
+}
+.date,.time{
+    padding: 0 0.5rem;
+}
+
+.temparature-o-sign{
+  vertical-align:top;
+  position: relative;
+  top: 5rem;
+}
+.temparature-sign-c{
+  font-size: 3rem;
+  font-weight: 700;
+}
